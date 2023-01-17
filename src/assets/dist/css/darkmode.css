@@ -1,0 +1,16 @@
+input [type="checkbox"]
+{
+    position: relative;
+    appearance: none;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #434343;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+input [type="checkbox"]:checked
+{
+    background-color: aliceblue;
+}
